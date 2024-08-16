@@ -14,20 +14,17 @@ let package = Package(
     products: [
         .library(
             name: "MealzNaviOSSDK",
-            targets: ["MealzNaviOSSDK"]),
+            targets: ["MealzNaviOSSDK"]
+        ),
     ],
     dependencies: [
-        .package(url: "https://github.com/miamtech/MealzIOSFrameworkRelease", from: "1.0.0")
+        .package(url: "https://github.com/MealzStaging/MealzUIiOSSDKRelease", from: "10.0.0"),
     ],
     targets: [
         .binaryTarget(
             name: "MealzNaviOSSDK",
-            url: "https://github.com/miamtech/MealzNaviOSSDKStaging/raw/release/1.0.0/MealzNaviOSSDK.zip",
-            checksum: "81854e6754d097bb3dc64ec564f1430896f3538be6ee18def68fd9cdfd8f7745"
-        )
-        
+            url: "https://github.com/MealzStaging/MealzNaviOSSDKRelease/raw/release/4.1.3/MealzNaviOSSDK.zip",
+            checksum: "95008bdbe60ed7884732092df3712abdf14dc3b0e18a9a6cf8e944385b6040c9"
+        ),
     ]
 )
-/*
- 
- */
