@@ -23,8 +23,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MealzNaviOSSDK",
-            url: "https://github.com/MealzStaging/MealzNaviOSSDKRelease/raw/release/4.1.10/MealzNaviOSSDK.zip",
-            checksum: "62138d077301e3d4d351e0127f069f5d2da6c129ebb2ba78389388658c739ed8"
+            url: "https://github.com/MealzStaging/MealzNaviOSSDKRelease/raw/release/4.1.11/MealzNaviOSSDK.zip",
+            checksum: "379338902579056eff55d083046e10f3bd5d6055660c11ee679fc4382337cce2"
         ),
     ]
 )
